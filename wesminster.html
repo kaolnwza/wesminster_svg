@@ -36,19 +36,41 @@
   }
 
 }
+.text{
+  position: absolute;
+  bottom: 20px;
+  font-size: 100px;
+  left: 50px;
+  color: #e9fbff;
+  font-family: 'Times New Roman', Times, serif;
+  filter: drop-shadow(6px 0px 0px #000000);
+  animation: opa 3s infinite;
+}
+@keyframes opa {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.1;
+
+  }
+  100%{
+    opacity: 1;
+
+  }
+  
+}
+
    
 </style>
 <body>
+  <div  class="text">
+  <b>Wesminster Abbey</b>
+  </div>
     <svg width="1100" height="700" viewbox="0 0 1300 1000"class="bg">
         <g>
             <polygon points="-100,400 -100,600 0,900 350,1100 900,1000 1100,900 1200,700 " fill="#70543e"/>
-<<<<<<< HEAD
-            <polygon points="350,850 850,850 1200,700 1200,400 750,100 450,50 150,100 -100,400 0,700" fill="#2f7532"/>
-=======
-
-            <polygon points="350,900 850,900 1200,700 1200,400 750,100 450,50 150,100 -100,400 0,700" fill="#2f7532"/>
-
->>>>>>> 0386653a3966c3c19e23e278b7293dd33f436813
+            <polygon points="350,850 950,850 1200,700 1200,400 750,100 450,50 150,100 -100,400 0,700" fill="#2f7532"/>
         </g>
             <g id="top">
               <polygon points = "300,280 404,216 278,146 165,211" fill="#e9fbff"/>
